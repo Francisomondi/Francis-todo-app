@@ -1,5 +1,6 @@
 import styles from "../style.module.css";
 import React from "react";
+import Todo from "./Todo";
 
 const Form = ({ todo, setTodo, todoList, setTodoList }) => {
   const handleChange = event => {
@@ -27,6 +28,7 @@ const Form = ({ todo, setTodo, todoList, setTodoList }) => {
           Add
         </button>
       </form>
+      <Todo />
     </div>
   );
 };
