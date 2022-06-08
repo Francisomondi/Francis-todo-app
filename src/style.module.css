@@ -7,3 +7,25 @@ body {
   height: 50px;
   font-size: 20px;
 }
+.todoform {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+.todoinput {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+  height: 50px;
+}
+.todobutton {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: tomato;
+  font-size: 1.5em;
+  color: white;
+  margin-top: 10px;
+}
