@@ -28,7 +28,6 @@ const Form = ({ todo, setTodo, todoList, setTodoList }) => {
           Add
         </button>
       </form>
-      <Todo />
     </div>
   );
 };
