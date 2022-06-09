@@ -1,13 +1,12 @@
 import styles from "../style.module.css";
 import React from "react";
-import Todo from "./Todo";
 
 const Form = ({ todo, setTodo, todoList, setTodoList }) => {
+  //handle on change property on todo input
   const handleChange = event => {
     setTodo(event.target.value);
-    console.log(todo);
   };
-
+  //handle form submit
   const handleSubmit = event => {
     event.preventDefault();
     setTodoList([...todoList, todo]);

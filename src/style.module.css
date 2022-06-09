@@ -37,6 +37,7 @@ body {
   margin-top: 20px;
 }
 .todoname {
+  font-family: "Courier New", Courier, monospace;
 }
 .deletebutton {
   height: 50px;
